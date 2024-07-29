@@ -1,16 +1,52 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    min-width: 13.875em;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.lista-navegacao ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .bar {
     background-color: #f9f9fb;
-    padding:15px;
+    padding: 15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -18,21 +54,100 @@ a { color:blue; text-decoration: none;}
     display: grid;
     gap: 3rem;
     grid-template-areas: "sidebar main anchors";
-    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.imagens-veneza {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagens-verona, .imagens-verona2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ver-tambem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ver-tambem figure {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    border: 1px solid #cdcdcd;
+}
+
+.ver-tambem figure img {
+    padding: 5px;
+}
+
+.ver-tambem figure figcaption {
+    padding: 15px;
+}
+
+.ligacoes-externas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ligacoes-externas figure {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    border: 1px solid #cdcdcd;
+}
+
+.ligacoes-externas figure img {
+    padding: 5px;
+}
+
+.ligacoes-externas figure figcaption {
+    padding: 10px;
+}
+
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
+
+.footer p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navegacao-footer ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25px;
+}
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+
 figure {
     text-align: center;
+}
+
+.imagens-footer {
+    text-align: end;
+}
+.imagens-footer img{
+    border: 1px solid #cdcdcd;
+    padding: 10px;
+    background-color: #f9f9fb;
 }
