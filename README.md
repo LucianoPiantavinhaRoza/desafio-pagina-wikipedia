@@ -12,7 +12,7 @@ Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quisere
 
 Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
 
-### [Clique aqui](https://pt.wikipedia.org/) para acessar a versão que eu desenvolvi! 🖥
+### [Clique aqui](https://lucianopiantavinharoza.github.io/desafio-pagina-wikipedia/) para acessar a versão que eu desenvolvi! 🖥
 
 ## Links úteis
 - [Download do NVDA](https://www.nvaccess.org/download/)
